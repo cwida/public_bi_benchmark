@@ -1,0 +1,6 @@
+--- 7.sql	2019-01-30 13:44:39.544957570 +0100
++++ 7.sql.new	2019-01-30 13:52:08.625382760 +0100
+@@ -1 +1 @@
+---SELECT MIN(TABLEAU.NORMALIZE_DATETIME("RealEstate1_2"."Calculation_5480628224156393")) AS "TEMP(none:Calculation_5480628224156393:qk lower)(290714814)(0)",   MAX(TABLEAU.NORMALIZE_DATETIME("RealEstate1_2"."Calculation_5480628224156393")) AS "TEMP(none:Calculation_5480628224156393:qk upper)(290714814)(0)" FROM "RealEstate1_2" WHERE ((TABLEAU.NORMALIZE_DATETIME("RealEstate1_2"."Date of Transfer") >= cast('2005-01-01' as DATE)) AND (TABLEAU.NORMALIZE_DATETIME("RealEstate1_2"."Date of Transfer") <= cast('2015-03-31' as DATE))) HAVING (COUNT(1) > 0);
++SELECT MIN(CAST("RealEstate1_2"."Calculation_5480628224156393" as DATE)) AS "TEMP(none:Calculation_5480628224156393:qk lower)(290714814)(0)",   MAX(CAST("RealEstate1_2"."Calculation_5480628224156393" as DATE)) AS "TEMP(none:Calculation_5480628224156393:qk upper)(290714814)(0)" FROM "RealEstate1_2" WHERE ((CAST("RealEstate1_2"."Date of Transfer" as DATE) >= cast('2005-01-01' as DATE)) AND (CAST("RealEstate1_2"."Date of Transfer" as DATE) <= cast('2015-03-31' as DATE))) HAVING (COUNT(1) > 0);
+\ No newline at end of file

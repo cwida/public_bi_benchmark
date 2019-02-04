@@ -1,0 +1,5 @@
+--- 4.sql	2019-01-30 13:44:39.543957578 +0100
++++ 4.sql.new	2019-01-30 13:53:07.823910679 +0100
+@@ -1 +1 @@
+---SELECT "RealEstate1_2"."Property Type" AS "Property Type" FROM "RealEstate1_2" WHERE ((TABLEAU.NORMALIZE_DATETIME("RealEstate1_2"."Date of Transfer") >= cast('2005-01-01' as DATE)) AND (TABLEAU.NORMALIZE_DATETIME("RealEstate1_2"."Date of Transfer") <= cast('2015-03-31' as DATE))) GROUP BY 1 ORDER BY "Property Type" ASC ;
++SELECT "RealEstate1_2"."Property Type" AS "Property Type" FROM "RealEstate1_2" WHERE ((CAST("RealEstate1_2"."Date of Transfer" as DATE) >= cast('2005-01-01' as DATE)) AND (CAST("RealEstate1_2"."Date of Transfer" as DATE) <= cast('2015-03-31' as DATE))) GROUP BY "Property Type" ORDER BY "Property Type" ASC ;

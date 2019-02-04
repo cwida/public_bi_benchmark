@@ -1,0 +1,5 @@
+--- 2.sql	2019-01-30 14:19:59.756252558 +0100
++++ 2.sql.new	2019-01-30 14:21:06.948727848 +0100
+@@ -1 +1 @@
+---SELECT "Arade_1"."F4" AS "F4" FROM "Arade_1" WHERE ((TABLEAU.NORMALIZE_DATETIME("Arade_1"."F3") >= cast('2014-10-17' as DATE)) AND (TABLEAU.NORMALIZE_DATETIME("Arade_1"."F3") <= cast('2015-10-16' as DATE))) GROUP BY 1 LIMIT 130;
++SELECT "Arade_1"."F4" AS "F4" FROM "Arade_1" WHERE ((CAST("Arade_1"."F3" as DATE) >= cast('2014-10-17' as DATE)) AND (CAST("Arade_1"."F3" as DATE) <= cast('2015-10-16' as DATE))) GROUP BY "F4" LIMIT 130;
