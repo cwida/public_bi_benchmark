@@ -1,5 +1,5 @@
-# Tableau benchmark
-A set of scripts to download, process, load and run the Tableau Benchmark data and queries on MonetDB.
+# BI benchmark
+A set of scripts to download, process, load and run the BI Benchmark data and queries on MonetDB.
 
 ### Scripts
 **0-get-raw-dataset.sh** \<destination-dir>\
