@@ -38,10 +38,31 @@ Requirements for scripts 2 and 3:
 - running MonetDB instance
 - `mclient` command to be available and configured
 - example of `mclient` configuration:
-```sh
+```
 [user@machine ~]$ cat ~/.monetdb
 user=monetdb
 password=monetdb
 language=sql
 database=tpb
+```
+
+### Status
+```
+[04-02-2019]
+
+212 (422 GB)    total tables
+=
+198 (405 GB)    load successfully
+- 168 (396 GB)  used in successful queries
+14 (17 GB)      error on loading
+
+912         total queries
+=
+622 (68%)   queries work AND produce results (nb_rows > 0)
+38  (4%)    queries work BUT do not produce results (nb_rows = 0)
+156 (17%)   impossible to fix (129 + 3 + 16 + 8)
+               - 137 queries using non-existing columns (122+7+8)
+               - 3 queries on non-existing tables
+               - 16 incomplete queries
+96  (10%)   queries using functions not supported by MonetDB
 ```
