@@ -12,7 +12,7 @@ A set of scripts to download, process, load and run the Tableau Benchmark data a
 - fixes csv files
 - alters queries to work on MonetDB
 - disables queries that cannot be fixed
-- final queries are in the <workbook>/queries/ directory (one query per file)
+- final queries are in the \<workbook\>/queries/ directory (one query per file)
 
 2-MonetDB-load-data.sh <dataset-dir>
     dataset-dir:    path to dataset root directory
@@ -25,7 +25,7 @@ A set of scripts to download, process, load and run the Tableau Benchmark data a
     dataset-dir:    path to dataset root directory
 - runs the queries on MonetDB
 - expects the data to be loaded
-- output files (\*.out and \*.err) in <workbook>/queries/ contain the result of the queries
+- output files (\*.out and \*.err) in \<workbook\>/queries/ contain the result of the queries
 - see Notes section for requirements
 
 4-process-results.sh <dataset-dir>
@@ -36,8 +36,8 @@ A set of scripts to download, process, load and run the Tableau Benchmark data a
 ### Notes
 Requirements for scripts 2 and 3:
 - running MonetDB instance
-- mclient command to be available and configured
-- example of mclient configuration:
+- `mclient` command to be available and configured
+- example of `mclient` configuration:
 ```sh
 [user@machine ~]$ cat ~/.monetdb
 user=monetdb
