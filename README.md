@@ -1,11 +1,14 @@
 # BI benchmark
+
 A set of scripts to download, process, load and run the BI Benchmark data and queries on MonetDB.
 
 ### Scripts
+
 **0-get-raw-dataset.sh** \<destination-dir>\
     destination-dir:    path to directory where the dataset will be stored
 - downloads and extracts the data
 - in this form, part of the data will not load and the queries will not run
+- run time estimate: 30 minutes
 
 **1-MonetDBify-raw-dataset.sh** \<dataset-dir>\
     dataset-dir:    path to dataset root directory
@@ -13,6 +16,7 @@ A set of scripts to download, process, load and run the BI Benchmark data and qu
 - alters queries to work on MonetDB
 - disables queries that cannot be fixed
 - final queries are in the *\<workbook\>/queries/* directory (one query per file)
+- run time estimate: 90 minutes
 
 **2-MonetDB-load-data.sh** \<dataset-dir>\
     dataset-dir:    path to dataset root directory
@@ -20,6 +24,7 @@ A set of scripts to download, process, load and run the BI Benchmark data and qu
 - loads data into MonetDB
 - output files (\*.out and \*.err) in each workbook directory contain the result of the load operation
 - see Notes section for requirements
+- run time estimate: 90 minutes
 
 **3-MonetDB-run-queries.sh** \<dataset-dir>\
     dataset-dir:    path to dataset root directory
@@ -27,13 +32,20 @@ A set of scripts to download, process, load and run the BI Benchmark data and qu
 - expects the data to be loaded
 - output files (\*.out and \*.err) in *\<workbook\>/queries/* contain the result of the queries
 - see Notes section for requirements
+- run time estimate: 5 minutes
 
 **4-process-results.sh** \<dataset-dir>\
     dataset-dir:    path to dataset root directory
 - processes the output files of scripts 2 and 3
 - generates a report based on it: 2 JSON formatted files in the current directory (workbooks.json, report.json)
+- run time estimate: 2 seconds
 
 ### Notes
+
+Dataset size:
+- compressed: ~45GB
+- uncompressed: ~422GB
+
 Requirements for scripts 2 and 3:
 - running MonetDB instance
 - `mclient` command to be available and configured
@@ -47,6 +59,7 @@ database=tpb
 ```
 
 ### Status
+
 ```
 [04-02-2019]
 
