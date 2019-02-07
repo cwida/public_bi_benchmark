@@ -1,4 +1,4 @@
---- ../TableauPublicBench.-/CityMaxCapita/queries.sql	2018-09-13 20:04:03.857374208 +0200
+--- ../PublicBIbenchmark.-/CityMaxCapita/queries.sql	2018-09-13 20:04:03.857374208 +0200
 +++ CityMaxCapita/queries.sql	2018-09-14 19:44:42.924895984 +0200
 @@ -13,7 +13,7 @@
  SELECT "CityMaxCapita_1"."City" AS "City",   SUM(1) AS "TEMP(Calculation_-1088745174867206144)(2109769841)(0)",   SUM(CAST("CityMaxCapita_1"."Number of Records" AS BIGINT)) AS "TEMP(Calculation_383650433982345216)(3967762572)(0)" FROM "CityMaxCapita_1" WHERE (((NOT ("CityMaxCapita_1"."City" IN ('Coon Rapids', 'Manhattan'))) OR ("CityMaxCapita_1"."City" IS NULL)) AND ("CityMaxCapita_1"."Keyword" IN ('hick', 'hillbillies', 'hillbilly', 'redneck'))) GROUP BY 1
@@ -11,7 +11,7 @@
 +--SELECT 1 from pg_class r where r.relname = '__Insert_Stream__#Tableau_2_2FCB0D6B-63F3-469A-9012-0F168B2ECE3F_11_Filter__0__' and r.relkind = 'x'
 +--SELECT MIN("CityMaxCapita_1"."City Pop (State)") AS "TEMP(attr:City Pop (State):nk)(2781944044)(0)",   MAX("CityMaxCapita_1"."City Pop (State)") AS "TEMP(attr:City Pop (State):nk)(3325013220)(0)",   "CityMaxCapita_1"."City Pop" AS "none:City Pop:nk" FROM "CityMaxCapita_1" WHERE EXISTS ( SELECT 1 AS "one" FROM "#Tableau_2_2FCB0D6B-63F3-469A-9012-0F168B2ECE3F_10_Filter" "Filter_1" WHERE ("CityMaxCapita_1"."City Pop" = "Filter_1"."none:City Pop:nk") ) GROUP BY 3
  SELECT SUM(CAST("CityMaxCapita_1"."City Pop (City)" AS BIGINT)) AS "TEMP(Calculation_383650433986449409)(441334432)(0)",   CAST(MAX("CityMaxCapita_1"."City Pop (City)") AS BIGINT) AS "TEMP(attr:City Pop (City):qk)(2566323313)(0)",   CAST(MIN("CityMaxCapita_1"."City Pop (City)") AS BIGINT) AS "TEMP(attr:City Pop (City):qk)(2799084203)(0)",   "CityMaxCapita_1"."City Pop" AS "none:City Pop:nk" FROM "CityMaxCapita_1" WHERE EXISTS ( SELECT 1 AS "one" FROM "#Tableau_2_2FCB0D6B-63F3-469A-9012-0F168B2ECE3F_11_Filter" "Filter_1" WHERE ("CityMaxCapita_1"."City Pop" = "Filter_1"."none:City Pop:nk") ) GROUP BY 4
---- ../TableauPublicBench.-/CommonGovernment/queries.sql	2018-09-13 20:04:03.857374208 +0200
+--- ../PublicBIbenchmark.-/CommonGovernment/queries.sql	2018-09-13 20:04:03.857374208 +0200
 +++ CommonGovernment/queries.sql	2018-09-14 19:44:42.924895984 +0200
 @@ -1,5 +1,5 @@
  SELECT "CommonGovernment_1"."ag_name" AS "ag_name" FROM "CommonGovernment_1" GROUP BY 1 ORDER BY "ag_name" ASC 
@@ -31,7 +31,7 @@
  SELECT COUNT(DISTINCT "CommonGovernment_10"."a_aid_acontid_piid") AS "ctd:a_aid_acontid_piid:ok",   SUM(CAST("CommonGovernment_10"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok",   SUM("CommonGovernment_10"."obligatedamount") AS "sum:obligatedamount:ok",   TABLEAU.TO_DATETIME(DATE_TRUNC('MONTH', TABLEAU.NORMALIZE_DATETIME(DATE("CommonGovernment_10"."signeddate"))), DATE("CommonGovernment_10"."signeddate")) AS "tmn:signeddate:ok" FROM "CommonGovernment_10" WHERE (("CommonGovernment_10"."refidvid_piid" IN ('', ' ')) OR ("CommonGovernment_10"."refidvid_piid" IS NULL)) GROUP BY 4
  SELECT COUNT(DISTINCT "CommonGovernment_13"."a_aid_acontid_piid") AS "ctd:a_aid_acontid_piid:ok",   SUM(CAST("CommonGovernment_13"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok",   SUM("CommonGovernment_13"."obligatedamount") AS "sum:obligatedamount:ok",   TABLEAU.TO_DATETIME(DATE_TRUNC('MONTH', TABLEAU.NORMALIZE_DATETIME(DATE("CommonGovernment_13"."signeddate"))), DATE("CommonGovernment_13"."signeddate")) AS "tmn:signeddate:ok" FROM "CommonGovernment_13" WHERE (("CommonGovernment_13"."refidvid_piid" IN ('', ' ')) OR ("CommonGovernment_13"."refidvid_piid" IS NULL)) GROUP BY 4
  SELECT COUNT(DISTINCT "CommonGovernment_13"."ag_name") AS "ctd:ag_name:ok",   COUNT(DISTINCT "CommonGovernment_13"."bureau_name") AS "ctd:bureau_name:ok",   COUNT(DISTINCT "CommonGovernment_13"."co_name") AS "ctd:co_name:ok",   COUNT(DISTINCT "CommonGovernment_13"."funding_agency_name") AS "ctd:funding_agency_name:ok",   COUNT(DISTINCT "CommonGovernment_13"."naics_code") AS "ctd:naics_code:ok",   COUNT(DISTINCT "CommonGovernment_13"."prod_or_serv_code") AS "ctd:prod_or_serv_code:ok",   COUNT(DISTINCT "CommonGovernment_13"."refidvid_piid") AS "ctd:refidvid_piid:ok",   SUM(CAST("CommonGovernment_13"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok",   SUM("CommonGovernment_13"."obligatedamount") AS "sum:obligatedamount:ok" FROM "CommonGovernment_13" HAVING (COUNT(1) > 0)
---- ../TableauPublicBench.-/MLB/queries.sql	2018-09-13 20:04:03.917374206 +0200
+--- ../PublicBIbenchmark.-/MLB/queries.sql	2018-09-13 20:04:03.917374206 +0200
 +++ MLB/queries.sql	2018-09-14 19:45:21.604895292 +0200
 @@ -45,7 +45,7 @@
  SELECT "MLB_62"."league" AS "league" FROM "MLB_62" GROUP BY 1 ORDER BY "league" ASC 
@@ -106,7 +106,7 @@
  SELECT CAST("MLB_65"."year" AS BIGINT) AS "year" FROM "MLB_65" GROUP BY "MLB_65"."year",   1
  SELECT CAST(MIN("MLB_17"."PA") AS BIGINT) AS "TEMP(none:PA:qk lower)(290714814)(1)",   CAST(MAX("MLB_17"."PA") AS BIGINT) AS "TEMP(none:PA:qk upper)(290714814)(1)" FROM "MLB_17" HAVING (COUNT(1) > 0)
  SELECT CAST(MIN("MLB_18"."PA") AS BIGINT) AS "TEMP(none:PA:qk lower)(290714814)(1)",   CAST(MAX("MLB_18"."PA") AS BIGINT) AS "TEMP(none:PA:qk upper)(290714814)(1)" FROM "MLB_18" HAVING (COUNT(1) > 0)
---- ../TableauPublicBench.-/NYC/queries.sql	2018-09-13 20:04:03.921374205 +0200
+--- ../PublicBIbenchmark.-/NYC/queries.sql	2018-09-13 20:04:03.921374205 +0200
 +++ NYC/queries.sql	2018-09-14 19:44:42.936895984 +0200
 @@ -2,5 +2,5 @@
  SELECT "NYC_2"."Borough" AS "Borough" FROM "NYC_2" GROUP BY 1 ORDER BY "Borough" ASC 
@@ -115,7 +115,7 @@
 -SELECT "NYC_2"."Borough" AS "Borough",   MIN("NYC_2"."Complaint Type") AS "TEMP(attr:Complaint Type:nk)(279559521)(0)",   MAX("NYC_2"."Complaint Type") AS "TEMP(attr:Complaint Type:nk)(3126817388)(0)",   CAST(TRUNC(DATE_PART('WEEK:0', TABLEAU.NORMALIZE_DATETIME("NYC_2"."Created Date")) AS BIGINT) AS "wk:Created Date:ok" FROM "NYC_2" WHERE (("NYC_2"."Borough" >= 'BRONX') AND ("NYC_2"."Borough" <= 'STATEN ISLAND')) GROUP BY 1,   4
 +SELECT "NYC_2"."Borough" AS "Borough",   MIN("NYC_2"."Complaint Type") AS "TEMP(attr:Complaint Type:nk)(279559521)(0)",   MAX("NYC_2"."Complaint Type") AS "TEMP(attr:Complaint Type:nk)(3126817388)(0)",   CAST(TRUNC(DATE_PART('WEEK:0', TABLEAU.NORMALIZE_DATETIME("NYC_2"."Created Date"))) AS BIGINT) AS "wk:Created Date:ok" FROM "NYC_2" WHERE (("NYC_2"."Borough" >= 'BRONX') AND ("NYC_2"."Borough" <= 'STATEN ISLAND')) GROUP BY 1,   4
  SELECT "NYC_2"."Complaint Type" AS "Complaint Type" FROM "NYC_2" GROUP BY 1 ORDER BY "Complaint Type" ASC 
---- ../TableauPublicBench.-/Romance/queries.sql	2018-09-13 20:04:03.941374205 +0200
+--- ../PublicBIbenchmark.-/Romance/queries.sql	2018-09-13 20:04:03.941374205 +0200
 +++ Romance/queries.sql	2018-09-14 19:44:42.936895984 +0200
 @@ -1,9 +1,9 @@
  SELECT "Romance_2"."term" AS "term" FROM "Romance_2" WHERE (("Romance_2"."lat" >= '40.466670000000001'::double) AND ("Romance_2"."lat" <= '41'::double) AND ("Romance_2"."lng" >= '-74.25'::double) AND ("Romance_2"."lng" <= '-73.549999999999997'::double) AND ("Romance_2"."term" IS NULL)) LIMIT 1
@@ -133,7 +133,7 @@
 +SELECT CAST(EXTRACT(HOUR FROM ((DATE('1/1/1970') + (CAST(CAST("Romance_1"."created_time" AS BIGINT) AS double) / NULLIF(86400,0)) * INTERVAL '1 DAY') + -8 * INTERVAL '1 HOUR')) AS BIGINT) AS "hr:Calculation_813462698269921280:ok",   SUM(CAST("Romance_1"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok" FROM "Romance_1" WHERE (("Romance_1"."lat" >= '40.466670000000001'::double) AND ("Romance_1"."lat" <= '41'::double) AND ("Romance_1"."lng" >= '-74.25'::double) AND ("Romance_1"."lng" <= '-73.549999999999997'::double) AND ((CASE WHEN ("Romance_1"."term" IN ('datenight', 'datenite')) THEN 'datenight' WHEN ("Romance_1"."term" IN ('romance', 'romantic', 'romanticdate')) THEN 'romance' ELSE "Romance_1"."term" END) = 'romance') AND (NOT ((1 + CAST(TRUNC(DATE_PART('DOW', ((DATE('1/1/1970') + (CAST(CAST("Romance_1"."created_time" AS BIGINT) AS double) / NULLIF(86400,0)) * INTERVAL '1 DAY') + -8 * INTERVAL '1 HOUR'))) AS BIGINT)) IS NULL))) GROUP BY 1
  SELECT REPLACE(BTRIM(LOWER("Romance_1"."location"),E' \\t\ \\x0b\\f\\r'),',','') AS "Calculation_813462698272518145" FROM "Romance_1" WHERE (("Romance_1"."lat" >= '40.466670000000001'::double) AND ("Romance_1"."lat" <= '41'::double) AND ("Romance_1"."lng" >= '-74.25'::double) AND ("Romance_1"."lng" <= '-73.549999999999997'::double)) GROUP BY 1 ORDER BY "Calculation_813462698272518145" ASC 
  SELECT REPLACE(BTRIM(LOWER("Romance_2"."location"),E' \\t\ \\x0b\\f\\r'),',','') AS "Calculation_813462698272518145" FROM "Romance_2" WHERE (("Romance_2"."lat" >= '40.466670000000001'::double) AND ("Romance_2"."lat" <= '41'::double) AND ("Romance_2"."lng" >= '-74.25'::double) AND ("Romance_2"."lng" <= '-73.549999999999997'::double)) GROUP BY 1 ORDER BY "Calculation_813462698272518145" ASC 
---- ../TableauPublicBench.-/TableroSistemaPenal/queries.sql	2018-09-13 20:04:03.949374204 +0200
+--- ../PublicBIbenchmark.-/TableroSistemaPenal/queries.sql	2018-09-13 20:04:03.949374204 +0200
 +++ TableroSistemaPenal/queries.sql	2018-09-14 19:44:42.940895984 +0200
 @@ -2,8 +2,8 @@
  SELECT "TableroSistemaPenal_1"."AÑO SENTENCIA" AS "AÑO SENTENCIA",   (CASE WHEN (CAST("TableroSistemaPenal_1"."COD_CORTE" AS BIGINT) > 0) THEN 'PAÍS' ELSE null END) AS "Calculation_1060726160218583",   AVG(CAST("TableroSistemaPenal_1"."Calculation_7170723135603565" AS double)) AS "avg:Calculation_7170723135603565:ok" FROM "TableroSistemaPenal_1" WHERE (("TableroSistemaPenal_1"."MULTA" >= '0.01'::double) AND ("TableroSistemaPenal_1"."MULTA" <= '8290658861'::double)) GROUP BY 1,   2
@@ -146,7 +146,7 @@
  SELECT "TableroSistemaPenal_1"."Item" AS "Item",   MAX("TableroSistemaPenal_1"."Descripcion") AS "TEMP(attr:Descripcion:nk)(382305174)(0)",   MIN("TableroSistemaPenal_1"."Descripcion") AS "TEMP(attr:Descripcion:nk)(4241038832)(0)" FROM "TableroSistemaPenal_1" WHERE ("TableroSistemaPenal_1"."Grupo" = 'Términos de Causa') GROUP BY 1
  SELECT "TableroSistemaPenal_1"."MOT_TERMINO" AS "MOT_TERMINO" FROM "TableroSistemaPenal_1" GROUP BY 1 ORDER BY "MOT_TERMINO" ASC 
  SELECT "TableroSistemaPenal_4"."Calculation_4830720180242383" AS "Calculation_4830720180242383",   SUM(CAST("TableroSistemaPenal_4"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok" FROM "TableroSistemaPenal_4" WHERE (CAST(EXTRACT(YEAR FROM "TableroSistemaPenal_4"."FECHA") AS BIGINT) = 2017) GROUP BY 1
---- ../TableauPublicBench.-/TrainsUK2/queries.sql	2018-09-13 20:04:03.953374204 +0200
+--- ../PublicBIbenchmark.-/TrainsUK2/queries.sql	2018-09-13 20:04:03.953374204 +0200
 +++ TrainsUK2/queries.sql	2018-09-14 19:44:42.940895984 +0200
 @@ -1,17 +1,17 @@
 -SELECT "TrainsUK2_1"."Calculation_4220604162631191" AS "Calculation_4220604162631191" FROM "TrainsUK2_1" WHERE ((TABLEAU.NORMALIZE_DATETIME("TrainsUK2_1"."Date") >= (DATE '2014-04-01')) AND (TABLEAU.NORMALIZE_DATETIME("TrainsUK2_1"."Date") <= (DATE '2015-05-30')) AND (NOT (((1 + CAST(TRUNC(DATE_PART('DOW', TABLEAU.NORMALIZE_DATETIME("TrainsUK2_1"."Date")) AS BIGINT)) IN (1, 7)) OR ((1 + CAST(TRUNC(DATE_PART('DOW', TABLEAU.NORMALIZE_DATETIME("TrainsUK2_1"."Date")) AS BIGINT)) IS NULL))) AND (TABLEAU.NORMALIZE_DATETIME("TrainsUK2_1"."Date (group)") = (DATE '2015-05-29')) AND ("TrainsUK2_1"."Operator" = 'HY') AND ("TrainsUK2_1"."Calculation_4220604162631191" IS NULL)) LIMIT 1

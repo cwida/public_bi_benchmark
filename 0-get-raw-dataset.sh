@@ -3,7 +3,7 @@
 SCRIPT_DIR=$(dirname "$(realpath "$0")")
 WORKING_DIR=$(pwd)
 
-DATASET_URL="http://www.cwi.nl/~boncz/TableauPublicBench.tar"
+DATASET_URL="http://www.cwi.nl/~boncz/PublicBIbenchmark.tar"
 
 usage() {
 cat <<EOM
@@ -25,9 +25,9 @@ if [ $ret -ne 0 ]; then
 fi
 
 printf "Downloading dataset..\n"
-wget -O "TableauPublicBench.tar" $DATASET_URL
+wget -O "PublicBIbenchmark.tar" $DATASET_URL
 
 printf "\nExtracting dataset..\n"
-tar -xvf "TableauPublicBench.tar"
+tar -xvf "PublicBIbenchmark.tar"
 
-printf "\nDataset location: $DST_DIR/TableauPublicBench (use this directory as parameter for the rest of the scripts)\n"
+printf "\nDataset location: $DST_DIR/PublicBIbenchmark (use this directory as parameter for the rest of the scripts)\n"
