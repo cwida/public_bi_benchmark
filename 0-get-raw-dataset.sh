@@ -29,5 +29,6 @@ wget -O "PublicBIbenchmark.tar" $DATASET_URL
 
 printf "\nExtracting dataset..\n"
 tar -xvf "PublicBIbenchmark.tar"
+mv "TableauPublicBench" "PublicBIbenchmark"
 
 printf "\nDataset location: $DST_DIR/PublicBIbenchmark (use this directory as parameter for the rest of the scripts)\n"
