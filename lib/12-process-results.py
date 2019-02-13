@@ -175,9 +175,12 @@ def generate_report(workbooks):
 					summary["nb_queries_with_results"] += 1
 
 		# ratios
-		summary["ratio_tables_successfully_loaded"] = float(summary["nb_tables_successfully_loaded"]) / summary["nb_tables_total"]
-		summary["ratio_queries_successful"] = float(summary["nb_queries_successful"]) / summary["nb_queries_total"]
-		summary["ratio_queries_with_results"] = float(summary["nb_queries_with_results"]) / summary["nb_queries_total"]
+		summary["ratio_tables_successfully_loaded"] = "+inf" if summary["nb_tables_total"] == 0 else \
+			float(summary["nb_tables_successfully_loaded"]) / summary["nb_tables_total"]
+		summary["ratio_queries_successful"] = "+inf" if summary["nb_queries_total"] == 0 else \
+			float(summary["nb_queries_successful"]) / summary["nb_queries_total"]
+		summary["ratio_queries_with_results"] = "+inf" if summary["nb_queries_total"] == 0 else \
+			float(summary["nb_queries_with_results"]) / summary["nb_queries_total"]
 
 		# general stats
 		res["stats"]["nb_wbs_total"] += 1
