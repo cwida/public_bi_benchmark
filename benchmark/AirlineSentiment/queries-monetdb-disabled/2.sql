@@ -1,0 +1,1 @@
+--SELECT "AirlineSentiment_3"."AIRLINE" AS "AIRLINE" FROM "AirlineSentiment_3" GROUP BY "AirlineSentiment_3"."AIRLINE" ORDER BY "AIRLINE" ASC ;

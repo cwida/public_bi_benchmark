@@ -1,0 +1,1 @@
+--SELECT "TableroSistemaPenal_6"."Forma Inicio" AS "Forma Inicio" FROM "TableroSistemaPenal_6" GROUP BY 1 ORDER BY "Forma Inicio" ASC ;

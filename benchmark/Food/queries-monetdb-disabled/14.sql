@@ -1,0 +1,1 @@
+--SELECT SUM("Food_1"."after ") AS "sum:after :ok",   SUM("Food_1"."before") AS "sum:before:ok",   "Food_1"."volume(GB)" AS "volume(GB)" FROM "Food_1" GROUP BY 3;

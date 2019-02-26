@@ -1,0 +1,1 @@
+--SELECT "TableroSistemaPenal_5"."MEDIDA" AS "MEDIDA" FROM "TableroSistemaPenal_5" GROUP BY 1 ORDER BY "MEDIDA" ASC ;

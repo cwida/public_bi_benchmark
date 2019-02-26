@@ -1,0 +1,1 @@
+--SELECT "Hatred_1"."State" AS "State",   SUM(1) AS "TEMP(Per100000 (Fatall) (copy))(2109769841)(0)" FROM "Hatred_1" WHERE ("Hatred_1"."State" NOT IN ('', 'AK', 'DC')) GROUP BY 1;

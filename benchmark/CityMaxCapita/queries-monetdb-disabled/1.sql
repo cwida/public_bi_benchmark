@@ -1,0 +1,1 @@
+--SELECT "CityMaxCapita_1"."City Pop" AS "City Pop" FROM "CityMaxCapita_1" GROUP BY 1 ORDER BY "City Pop" ASC ;

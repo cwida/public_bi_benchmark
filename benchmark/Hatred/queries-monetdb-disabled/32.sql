@@ -1,0 +1,1 @@
+--SELECT "Hatred_1"."State" AS "State",   SUM(1) AS "TEMP(Calculation_-454863522739130367)(2109769841)(0)" FROM "Hatred_1" WHERE (("Hatred_1"."State" NOT IN ('', 'AK', 'DC')) AND ("Hatred_1"."Keyword" = 'slut')) GROUP BY 1;

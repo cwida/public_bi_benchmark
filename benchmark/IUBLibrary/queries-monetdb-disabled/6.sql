@@ -1,0 +1,1 @@
+--SELECT "IUBLibrary_1"."Sh" AS "Sh",   TABLEAU.TO_DATETIME(DATE_TRUNC('YEAR', TABLEAU.NORMALIZE_DATETIME("IUBLibrary_1"."DateLastCharged")), "IUBLibrary_1"."DateLastCharged") AS "tyr:DateLastCharged:ok" FROM "IUBLibrary_1" GROUP BY 1,   2;

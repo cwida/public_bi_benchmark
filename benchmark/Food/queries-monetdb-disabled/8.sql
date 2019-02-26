@@ -1,0 +1,1 @@
+--SELECT AVG(CAST("Food_1"."Calculation_1553038251895332871" AS double)) AS "avg:Calculation_1553038251895332871:ok",   "Food_1"."vendor" AS "vendor" FROM "Food_1" WHERE ("Food_1"."vendor" IN ('Advan', 'Android', 'Apple', 'Asus', 'BlackBerry', 'Huawei', 'Lenovo', 'Oppo', 'Samsung', 'Sony', 'Xiaomi')) GROUP BY 2;

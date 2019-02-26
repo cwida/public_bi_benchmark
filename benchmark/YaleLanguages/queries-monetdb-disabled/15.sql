@@ -1,0 +1,1 @@
+--SELECT "YaleLanguages_5"."Calculation_1730108092045176" AS "Calculation_1730108092045176",   COUNT(DISTINCT "YaleLanguages_5"."Bib Id (copy)") AS "ctd:Bib Id (copy):ok" FROM "YaleLanguages_5" WHERE (("YaleLanguages_5"."BIB_SUPPRESS_IN_OPAC" = 'N') AND ("YaleLanguages_5"."MFHD_SUPPRESS_IN_OPAC" = 'N')) GROUP BY 1;
