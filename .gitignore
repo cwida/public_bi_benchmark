@@ -1,0 +1,11 @@
+benchmark/*/tables-vectorwise
+
+benchmark/*/load-monetdb
+benchmark/*/load-vectorwise
+
+benchmark/*/queries-monetdb/*.out
+benchmark/*/queries-monetdb/*.err
+benchmark/*/queries-monetdb/*.ret
+benchmark/*/queries-vectorwise/*.out
+benchmark/*/queries-vectorwise/*.err
+benchmark/*/queries-vectorwise/*.ret
