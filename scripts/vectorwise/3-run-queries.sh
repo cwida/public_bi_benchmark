@@ -29,7 +29,7 @@ for f in $SCRIPT_DIR/../../benchmark/*/queries-vectorwise/*.sql
 do
     echo "$(date) $f"
     query="$(cat $f)\g"
-    echo $query | sql $db_name > "$f.out" 2> "$f.err"
+    echo $query | sql $DB_NAME > "$f.out" 2> "$f.err"
     ret=$?
     echo $ret > "$f.ret"
 done

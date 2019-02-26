@@ -69,8 +69,6 @@ for wb in ./*; do
 		ret=$?
 		if [ $ret -ne 0 ]; then
 			echo "error: unable to process query; ret=$ret"
-			# TODO: debug
-			exit 1
 			continue
 		fi
 		mv $q $q.orig
@@ -87,10 +85,20 @@ for wb in ./*; do
         ret=$?
         if [ $ret -ne 0 ]; then
             echo "error: unable to process query; ret=$ret"
-            # TODO: debug
-            exit 1
             continue
         fi
         mv $q.new $q
     done
+done
+
+# replace double with float8
+echo "$(date) replacing double with float8"
+for f in ./*/queries/*.sql; do
+    sed 's/double/float8/g' $f > $f.new
+    ret=$?
+    if [ $ret -ne 0 ]; then
+        echo "error: unable to process query; ret=$ret"
+        continue
+    fi
+    mv $f.new $f
 done
