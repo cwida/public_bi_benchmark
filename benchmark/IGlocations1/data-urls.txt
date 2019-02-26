@@ -1,0 +1,1 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/IGlocations1/IGlocations1_1.csv.bz2

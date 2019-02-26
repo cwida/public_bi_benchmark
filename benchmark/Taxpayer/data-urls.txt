@@ -1,0 +1,10 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_10.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_4.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_5.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_6.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_7.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_8.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Taxpayer/Taxpayer_9.csv.bz2

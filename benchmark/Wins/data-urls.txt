@@ -1,0 +1,4 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Wins/Wins_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Wins/Wins_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Wins/Wins_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Wins/Wins_4.csv.bz2

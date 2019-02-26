@@ -1,0 +1,2 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Medicare2/Medicare2_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Medicare2/Medicare2_2.csv.bz2

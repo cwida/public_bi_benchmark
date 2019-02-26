@@ -1,0 +1,8 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_4.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_5.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_6.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_7.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Provider/Provider_8.csv.bz2

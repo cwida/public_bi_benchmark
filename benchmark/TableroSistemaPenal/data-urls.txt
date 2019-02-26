@@ -1,0 +1,8 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_4.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_5.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_6.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_7.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/TableroSistemaPenal/TableroSistemaPenal_8.csv.bz2

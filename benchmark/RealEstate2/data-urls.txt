@@ -1,0 +1,7 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/RealEstate2/RealEstate2_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/RealEstate2/RealEstate2_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/RealEstate2/RealEstate2_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/RealEstate2/RealEstate2_4.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/RealEstate2/RealEstate2_5.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/RealEstate2/RealEstate2_6.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/RealEstate2/RealEstate2_7.csv.bz2

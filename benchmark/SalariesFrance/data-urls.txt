@@ -1,0 +1,13 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_10.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_11.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_12.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_13.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_4.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_5.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_6.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_7.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_8.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/SalariesFrance/SalariesFrance_9.csv.bz2

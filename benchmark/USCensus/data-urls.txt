@@ -1,0 +1,3 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/USCensus/USCensus_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/USCensus/USCensus_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/USCensus/USCensus_3.csv.bz2

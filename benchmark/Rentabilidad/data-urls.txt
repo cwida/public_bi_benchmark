@@ -1,0 +1,9 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_4.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_5.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_6.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_7.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_8.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Rentabilidad/Rentabilidad_9.csv.bz2

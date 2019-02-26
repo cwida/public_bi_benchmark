@@ -1,0 +1,1 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/CityMaxCapita/CityMaxCapita_1.csv.bz2

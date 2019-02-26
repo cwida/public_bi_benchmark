@@ -1,0 +1,5 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/YaleLanguages/YaleLanguages_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/YaleLanguages/YaleLanguages_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/YaleLanguages/YaleLanguages_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/YaleLanguages/YaleLanguages_4.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/YaleLanguages/YaleLanguages_5.csv.bz2

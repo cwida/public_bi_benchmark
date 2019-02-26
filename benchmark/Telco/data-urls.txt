@@ -1,0 +1,1 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Telco/Telco_1.csv.bz2

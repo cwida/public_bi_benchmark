@@ -1,0 +1,4 @@
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Redfin1/Redfin1_1.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Redfin1/Redfin1_2.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Redfin1/Redfin1_3.csv.bz2
+http://www.cwi.nl/~boncz/PublicBIbenchmark/Redfin1/Redfin1_4.csv.bz2
