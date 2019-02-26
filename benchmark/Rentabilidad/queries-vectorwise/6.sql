@@ -1,0 +1,1 @@
+SELECT "Rentabilidad_1"."Figura" AS "Figura",   "Rentabilidad_1"."Implementación Venta" AS "Implementación Venta",   "Rentabilidad_1"."Locación" AS "Locación",   "Rentabilidad_1"."Sede Foraneo Sintec" AS "Sede Foraneo Sintec",   "Rentabilidad_1"."Zona" AS "Zona" FROM "Rentabilidad_1" GROUP BY 1,   2,   3,   4,   5;

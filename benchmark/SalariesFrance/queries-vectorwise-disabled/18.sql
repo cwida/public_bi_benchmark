@@ -1,0 +1,1 @@
+--SELECT "SalariesFrance_2"."REG_LIB" AS "REG_LIB" FROM "SalariesFrance_2" GROUP BY 1 ORDER BY "REG_LIB" ASC ;

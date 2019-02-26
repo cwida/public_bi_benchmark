@@ -1,0 +1,1 @@
+--SELECT "TableroSistemaPenal_5"."Calculation_4830720180242383" AS "Calculation_4830720180242383",   SUM(CAST("TableroSistemaPenal_5"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok" FROM "TableroSistemaPenal_5" WHERE (CAST(EXTRACT(YEAR FROM "TableroSistemaPenal_5"."FECHA") AS BIGINT) = 2017) GROUP BY 1;

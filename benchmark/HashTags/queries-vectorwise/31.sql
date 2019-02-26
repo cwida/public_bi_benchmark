@@ -1,0 +1,1 @@
+SELECT SUM(CAST("HashTags_1"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok",   "HashTags_1"."twitter#user#screen_name" AS "twitter#user#screen_name" FROM "HashTags_1" GROUP BY 2 HAVING (SUM(1) > 200);

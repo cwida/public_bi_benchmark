@@ -1,0 +1,1 @@
+--SELECT "Hatred_1"."State" AS "State",   MAX("Hatred_1"."Keyword") AS "TEMP(attr:Keyword:nk)(2694177860)(0)",   MIN("Hatred_1"."Keyword") AS "TEMP(attr:Keyword:nk)(4040898713)(0)" FROM "Hatred_1" WHERE ("Hatred_1"."Keyword" = 'slut') GROUP BY 1;

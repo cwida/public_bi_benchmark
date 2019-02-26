@@ -1,0 +1,1 @@
+--SELECT "TrainsUK2_2"."TOC" AS "TOC",   MIN("TrainsUK2_2"."Target Amount Minutes") AS "min:Target Amount Minutes:ok" FROM "TrainsUK2_2" WHERE (("TrainsUK2_2"."TOC" = 'HY') AND ("TrainsUK2_2"."Target Type Name" = 'PPM')) GROUP BY 1;

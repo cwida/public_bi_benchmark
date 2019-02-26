@@ -1,0 +1,1 @@
+--SELECT (CASE WHEN (("IGlocations1_1"."city" = 'Unalaska') AND ("IGlocations1_1"."latitude" < 40)) THEN 'Hawaii' ELSE "IGlocations1_1"."state" END) AS "Calculation_7240730155956975",   SUM(CAST("IGlocations1_1"."Number of Records" AS BIGINT)) AS "TEMP(Calculation_8840730155303010)(3967762572)(0)" FROM "IGlocations1_1" WHERE ("IGlocations1_1"."country" = 'US') GROUP BY 1;

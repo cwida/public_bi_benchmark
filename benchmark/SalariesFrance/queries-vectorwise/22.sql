@@ -1,0 +1,1 @@
+SELECT "SalariesFrance_9"."ZE2010_LIB" AS "ZE2010_LIB",   AVG(CAST("SalariesFrance_9"."Latitude" AS float8)) AS "avg:Latitude:ok",   AVG(CAST("SalariesFrance_9"."Longitude" AS float8)) AS "avg:Longitude:ok",   SUM("SalariesFrance_9"."EMPSAL_NP1") AS "sum:EMPSAL_NP1:ok" FROM "SalariesFrance_9" GROUP BY 1;

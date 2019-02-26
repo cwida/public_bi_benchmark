@@ -1,0 +1,1 @@
+--SELECT CAST("TableroSistemaPenal_1"."Año" AS BIGINT) AS "Año",   SUM(CAST("TableroSistemaPenal_1"."CantidadCasos" AS BIGINT)) AS "TEMP(Calculation_3090812123519786)(3738338993)(0)" FROM "TableroSistemaPenal_1" GROUP BY "TableroSistemaPenal_1"."Año",   1;

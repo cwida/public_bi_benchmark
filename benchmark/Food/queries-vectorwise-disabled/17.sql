@@ -1,0 +1,1 @@
+--SELECT SUM(CAST("Food_1"."subscribers" AS BIGINT)) AS "sum:subscribers:ok",   "Food_1"."vendor" AS "vendor" FROM "Food_1" GROUP BY 2;
