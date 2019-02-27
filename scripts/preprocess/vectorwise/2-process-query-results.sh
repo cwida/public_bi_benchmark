@@ -22,14 +22,6 @@ if [ $ret -ne 0 ]; then
     exit $ret
 fi
 
-: <<'END_COMMENT'
-TODO:
-- look for:
-    - "* Executing . . ." in head -n 20
-    - "+--" AND "--+" in head -n 20 AND tail -n 20
-    - "(X rows)" in tail -n 20
-END_COMMENT
-
 
 output_dir="$SCRIPT_DIR/2-process-query-results_output"
 mkdir -p $output_dir && rm -f $output_dir/*
@@ -45,9 +37,7 @@ cnt_disabled=0
 cnt_exception=0
 
 for wb in ./*; do
-    # TODO: use this line when you commit
-    # for q in $wb/queries/*.out; do
-    for q in $wb/queries-vectorwise/*.out; do
+    for q in $wb/queries/*.out; do
         q_name=$(basename $q); q_name="${q_name%.sql.out}"
         # echo $wb $q $q_name
 
