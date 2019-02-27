@@ -27,11 +27,11 @@ queries-vectorwise-disabled:  queries that do not work on VectorWise
 ### scripts/lib
 - scripts that download and decompress the full data files
 
-**1-download-data.sh** \<destination-dir\>\
+**lib/1-download-data.sh** \<destination-dir\>\
     destination-dir:    path to directory where the dataset will be stored
 - downloads the the full benchmark data files
 
-**2-decompress-csv.sh**
+**lib/2-decompress-csv.sh**
 - decompresses the *.csv.bz2* files
 - script must be executed from the root directory of the dataset downloaded with **1-download-data.sh**
 
