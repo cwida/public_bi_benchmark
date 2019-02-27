@@ -11,9 +11,9 @@ This repository contains samples and schema of each .csv file, the queries and a
 
 Each directory is associated with a workbook and contains:
 ```
-samples:                      a sample of each *.csv* file (first 20 rows)
-data-urls.txt:                links for downloading the full *.csv.bz2* compressed files
-tables:                       .sql files containing the schema of each *.csv* file
+samples:                      a sample of each .csv file (first 20 rows)
+data-urls.txt:                links for downloading the full .csv.bz2 compressed files
+tables:                       .sql files containing the schema of each .csv file
 queries-original:             original Tableau queries
 queries-monetdb:              processed queries that work on MonetDB
 queries-monetdb-disabled:     queries that do not work on MonetDB
