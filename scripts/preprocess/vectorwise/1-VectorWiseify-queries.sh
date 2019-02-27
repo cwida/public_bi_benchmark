@@ -24,7 +24,13 @@ fi
 
 
 : <<'NOTE'
-All changes done for MonetDB are also needed for VectorWise, except for the GROUP BY changes. While most of these changes can be separated, there is a small number of patches which contain both general and MonetDB specific changes. These were obtained through manual altering of the queries. The right way to go would have been to split the mixed patches and aplly only the general fixes to the queries. However, this is time consuming and we decided to apply the mixed patches and then revert the GROUP BY changes.
+All changes done for MonetDB are also needed for VectorWise, except for the
+GROUP BY changes. While most of these changes can be separated, there is a small
+number of patches which contain both general and MonetDB specific changes.
+These were obtained through manual altering of the queries. The right way to go
+would have been to split the mixed patches and aplly only the general fixes to
+the queries. However, this is time consuming and we decided to apply the mixed
+patches and then revert the GROUP BY changes.
 NOTE
 
 
