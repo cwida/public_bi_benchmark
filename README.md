@@ -36,7 +36,7 @@ queries-vectorwise-disabled:  queries that do not work on VectorWise
 - script must be executed from the root directory of the dataset downloaded with **1-download-data.sh**
 
 ### scripts/monetdb
-- scripts to create tables load *.csv* files and run the queries on MonetDB
+- scripts to create tables, load *.csv* files and run the queries on MonetDB
 
 Requirements:
 - running MonetDB instance
@@ -76,8 +76,8 @@ database=tpb
 - create the tables in MonetDB
 
 **vectorwise/2-load-data.sh** \<database-name\> \<dataset-dir\>\
-    database-name:    name of the database
-  dataset-dir:      path to dataset root directory
+    database-name:    name of the database\
+    dataset-dir:      path to dataset root directory
 - loads the *.csv* files into VectorWise
 - output files (*\*.out* and *\*.err*) in `<workbook>/load-vectorwise/` contain the results of the queries
 - expects the data files to be already decompressed (*.csv* not *.csv.bz2*)
@@ -106,8 +106,8 @@ Multiple .csv files may overlap but are not identical. This is because Tableau
 extracts the same workbook in multiple different ways for different queries.
 
 905 queries in total:
-monetdb:		646 working + 258 disabled
-vectorwise:		605 working + 299 disabled
+monetdb:	646 working + 258 disabled
+vectorwise:	605 working + 299 disabled
 
 General errors:
 - queries using non-existing columns
