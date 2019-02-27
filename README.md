@@ -1,6 +1,6 @@
 # Public BI benchmark
 
-User generated benchmark derived from the DBTest'18 paper [1] by Tableau. It contains real data an queries from 47 public workbooks in Tableau Public [2].
+User generated benchmark derived from the DBTest'18 paper [1] by Tableau. It contains real data and queries from 47 public workbooks in Tableau Public [2].
 
 We downloaded 47 of the biggest workbooks and converted the data to *.csv* files and collected the SQL queries that appear in the Tableau log when the workbooks are visualized. We processed the *.csv* files and queries with the purpose of making them load and run on different database systems.
 
