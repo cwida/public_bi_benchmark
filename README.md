@@ -33,12 +33,13 @@ queries-vectorwise-disabled:  queries that do not work on VectorWise
 
 **lib/2-decompress-csv.sh**
 - decompresses the *.csv.bz2* files
-- script must be executed from the root directory of the dataset downloaded with **1-download-data.sh**
+- script must be executed from the root directory of the dataset downloaded with **lib/1-download-data.sh**
 
 ### scripts/monetdb
 - scripts to create tables, load *.csv* files and run the queries on MonetDB
 
 Requirements:
+- data files should be decompressed (**lib/2-decompress-csv.sh**)
 - running MonetDB instance
 - `mclient` command to be available and configured
 - example of `mclient` configuration:
@@ -68,6 +69,7 @@ database=tpb
 - scripts to create tables load *.csv* files and run the queries on VectorWise
 
  Requirements:
+ - data files should be decompressed (**lib/2-decompress-csv.sh**)
  - running VectorWise instance
  - `sql` command to be available and configured
 
