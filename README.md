@@ -19,9 +19,18 @@ There are 47 workbooks containing 207 tables (.csv files) with the total size of
 Multiple .csv files may overlap but are not identical. This is because Tableau
 extracts the same workbook in multiple different ways for different queries.
 
-The benchmark contains 646 queries which have been tested on MonetDB. The same queries with VectorWise specific syntax are available on the `dev/master` branch.
+The benchmark contains 646 queries which have been tested on MonetDB. The same queries with VectorWise specific syntax are available on the `dev/master` branch under `benchmark/<workbook>/queries-vectorwise`.
 
 Note: *AirlineSentiment* has no working queries. However, we keep it for the data and the compression use case.
+
+## dev/master branch
+
+The `dev/master` branch contains:
+- scripts to download and decompress the entire dataset
+- scripts to create tables (and adapt schema syntax), load data and run queries for MonetDB and VectorWise
+- scripts that document the process of cleaning, fixing and adapting the data and queries from the original Tableau specific form
+
+For more info see the README on `dev/master`.
 
 ## References
 
