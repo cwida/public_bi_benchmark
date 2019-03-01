@@ -8,14 +8,10 @@ This repository contains samples and schema of each .csv file, the queries and a
 
 Each directory is associated with a workbook and contains:
 ```
-samples:                      a sample of each .csv file (first 20 rows)
-data-urls.txt:                links for downloading the full .csv.bz2 compressed files
-tables:                       .sql files containing the schema of each .csv file
-queries-original:             original Tableau queries
-queries-monetdb:              processed queries that work on MonetDB
-queries-monetdb-disabled:     queries that do not work on MonetDB
-queries-vectorwise:           processed queries that work on VectorWise
-queries-vectorwise-disabled:  queries that do not work on VectorWise
+samples:        a sample of each .csv file (first 20 rows)
+tables:         .sql files containing the schema of each .csv file
+queries:        .sql files containing the queries
+data-urls.txt:  links for downloading the full .csv.bz2 compressed files
 ```
 
 There are 47 workbooks containing 207 tables (.csv files) with the total size of 41 GB compressed and 386 GB uncompressed.
@@ -25,7 +21,7 @@ extracts the same workbook in multiple different ways for different queries.
 
 The benchmark contains 646 queries which have been tested on MonetDB. The same queries with VectorWise specific syntax are available on the `dev/master` branch.
 
-Note: AirlineSentiment has no working queries. However, we keep it for the data and the compression use case.
+Note: *AirlineSentiment* has no working queries. However, we keep it for the data and the compression use case.
 
 ## References
 
