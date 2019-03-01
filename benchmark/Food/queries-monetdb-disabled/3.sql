@@ -1,1 +1,0 @@
---SELECT "Food_1"."device" AS "device",   SUM("Food_1"."Calculation_1553038251895164934") AS "sum:Calculation_1553038251895164934:ok" FROM "Food_1" WHERE ((NOT ("Food_1"."device" IN ('iPad-generic', 'iPhone-generic', 'Mac-generic'))) AND ("Food_1"."vendor" = 'Apple')) GROUP BY 1;

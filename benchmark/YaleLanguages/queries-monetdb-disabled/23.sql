@@ -1,1 +1,0 @@
---SELECT "YaleLanguages_5"."Calculation_4170108085057450" AS "Calculation_4170108085057450",   SUM(CAST("YaleLanguages_5"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok" FROM "YaleLanguages_5" WHERE (("YaleLanguages_5"."BIB_SUPPRESS_IN_OPAC" = 'N') AND ("YaleLanguages_5"."MFHD_SUPPRESS_IN_OPAC" = 'N')) GROUP BY 1;

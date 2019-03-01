@@ -1,1 +1,0 @@
-SELECT "TableroSistemaPenal_6"."PAÍS" AS "PAÍS",   "TableroSistemaPenal_6"."TIP TRIB" AS "TIP TRIB",   SUM(CAST("TableroSistemaPenal_6"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok",   CAST(EXTRACT(YEAR FROM "TableroSistemaPenal_6"."FECHA AUDIENCIA") AS BIGINT) AS "yr:FECHA AUDIENCIA:ok" FROM "TableroSistemaPenal_6" GROUP BY 1,   2,   4;;

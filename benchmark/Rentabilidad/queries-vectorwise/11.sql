@@ -1,1 +1,0 @@
-SELECT "Rentabilidad_1"."Implementación Venta" AS "Implementación Venta" FROM "Rentabilidad_1" WHERE (("Rentabilidad_1"."Figura" = 'Preventa On Premise') AND ("Rentabilidad_1"."Sede Foraneo Sintec" = 'Sede') AND ("Rentabilidad_1"."Zona" = 'OC')) GROUP BY 1;

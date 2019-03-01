@@ -1,1 +1,0 @@
-SELECT "CommonGovernment_6"."level2_category" AS "Level2 Category (copy)" FROM "CommonGovernment_6" GROUP BY 1;

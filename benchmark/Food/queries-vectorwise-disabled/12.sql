@@ -1,1 +1,0 @@
---SELECT SUM("Food_1"."Calculation_1553038251895332871") AS "TEMP(Calculation_1553038251896254474)(3520192934)(0)",   "Food_1"."device" AS "device" FROM "Food_1" WHERE ("Food_1"."vendor" = 'Apple') GROUP BY 2;

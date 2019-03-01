@@ -1,1 +1,0 @@
---SELECT "TableroSistemaPenal_1"."MOT_TERMINO" AS "MOT_TERMINO" FROM "TableroSistemaPenal_1" GROUP BY 1 ORDER BY "MOT_TERMINO" ASC ;

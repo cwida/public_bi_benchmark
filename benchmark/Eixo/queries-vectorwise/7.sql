@@ -1,1 +1,0 @@
-SELECT "Eixo_1"."nome_curso_catalogo_guia" AS "nome_curso_catalogo_guia" FROM "Eixo_1" GROUP BY 1;

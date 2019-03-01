@@ -1,1 +1,0 @@
---SELECT "TableroSistemaPenal_1"."Item" AS "Item",   MAX("TableroSistemaPenal_1"."Descripcion") AS "TEMP(attr:Descripcion:nk)(382305174)(0)",   MIN("TableroSistemaPenal_1"."Descripcion") AS "TEMP(attr:Descripcion:nk)(4241038832)(0)" FROM "TableroSistemaPenal_1" WHERE ("TableroSistemaPenal_1"."Grupo" = 'Términos de Causa') GROUP BY 1;

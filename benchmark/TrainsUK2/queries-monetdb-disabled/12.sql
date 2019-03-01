@@ -1,1 +1,0 @@
---SELECT "TrainsUK2_2"."TOC" AS "TOC" FROM "TrainsUK2_2" WHERE (("TrainsUK2_2"."TOC" = 'HY') AND ("TrainsUK2_2"."Target Type Name" = 'PPM')) GROUP BY 1;

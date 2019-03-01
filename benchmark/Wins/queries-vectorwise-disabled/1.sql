@@ -1,1 +1,0 @@
---SELECT "Wins_1"."tTRK3" AS "tTRK" FROM "Wins_1" GROUP BY 1 LIMIT 106;

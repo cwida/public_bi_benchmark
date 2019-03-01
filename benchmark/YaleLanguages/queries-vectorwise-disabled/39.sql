@@ -1,1 +1,0 @@
---SELECT SUM(CAST("YaleLanguages_1"."Number of Records" AS BIGINT)) AS "sum:Number of Records:ok",   CAST(EXTRACT(YEAR FROM "YaleLanguages_1"."BIB_CREATE_DATE") AS BIGINT) AS "yr:BIB_CREATE_DATE:ok" FROM "YaleLanguages_1" WHERE (("YaleLanguages_1"."BIB_SUPPRESS_IN_OPAC" = 'N') AND ("YaleLanguages_1"."MFHD_SUPPRESS_IN_OPAC" = 'N')) GROUP BY 2;

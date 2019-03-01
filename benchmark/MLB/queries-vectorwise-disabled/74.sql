@@ -1,1 +1,0 @@
---SELECT CAST("MLB_37"."oi" AS BIGINT) AS "oi" FROM "MLB_37" GROUP BY "MLB_37"."oi",   1 ORDER BY "oi" ASC ;

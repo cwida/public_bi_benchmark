@@ -1,1 +1,0 @@
---SELECT "AirlineSentiment_3"."TOPIC" AS "TOPIC" FROM "AirlineSentiment_3" GROUP BY "AirlineSentiment_3"."TOPIC" ORDER BY "TOPIC" ASC ;

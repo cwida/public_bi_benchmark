@@ -1,1 +1,0 @@
---SELECT "Food_1"."vendor" AS "vendor" FROM "Food_1" GROUP BY 1 ORDER BY "vendor" ASC ;

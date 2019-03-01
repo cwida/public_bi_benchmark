@@ -1,1 +1,0 @@
---SELECT "Food_1"."device" AS "device",   SUM("Food_1"."Calculation_1553038251886313475") AS "sum:Calculation_1553038251886313475:ok",   SUM("Food_1"."volume_total_bytes") AS "sum:volume_total_bytes:ok" FROM "Food_1" GROUP BY 1;

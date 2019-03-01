@@ -1,1 +1,0 @@
---SELECT "SalariesFrance_4"."CODES_ROME_DESTINATION" AS "CODES_ROME_DESTINATION",   "SalariesFrance_4"."DESCRIPTION" AS "DESCRIPTION",   "SalariesFrance_4"."ROME_LIB_DESTINATION" AS "ROME_LIB_DESTINATION",   "SalariesFrance_4"."TYPES_MOBILITE" AS "TYPES_MOBILITE" FROM "SalariesFrance_4" WHERE ("SalariesFrance_4"."APPELLATION" = 'Manutentionnaire') GROUP BY 1,   2,   3,   4;

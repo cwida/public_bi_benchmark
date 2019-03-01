@@ -1,1 +1,0 @@
-SELECT FIRST 34 "SalariesFrance_1"."REG_LIB" AS "REG_LIB" FROM "SalariesFrance_1" GROUP BY 1;

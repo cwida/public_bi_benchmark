@@ -1,1 +1,0 @@
---SELECT 1 from pg_class r where r.relname = '__Insert_Stream__#Tableau_2_2FCB0D6B-63F3-469A-9012-0F168B2ECE3F_10_Filter__0__' and r.relkind = 'x';

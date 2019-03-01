@@ -1,1 +1,0 @@
-SELECT "CommonGovernment_13"."naics_code" AS "naics_code",   "CommonGovernment_13"."naics_name" AS "naics_name",   SUM("CommonGovernment_13"."obligatedamount") AS "sum:obligatedamount:ok" FROM "CommonGovernment_13" GROUP BY 1,   2;

@@ -1,1 +1,0 @@
---SELECT SUM("Food_1"."Calculation_1553038251887087620") AS "sum:Calculation_1553038251887087620:ok",   "Food_1"."vendor" AS "vendor" FROM "Food_1" GROUP BY 2;
