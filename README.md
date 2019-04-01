@@ -21,8 +21,6 @@ extracts the same workbook in multiple different ways for different queries.
 
 The benchmark contains 646 queries which have been tested on MonetDB. The same queries with VectorWise specific syntax are available on the `dev/master` branch under `benchmark/<workbook>/queries-vectorwise`.
 
-Note: *AirlineSentiment* has no working queries. However, we keep it for the data and the compression use case.
-
 ## dev/master branch
 
 The `dev/master` branch contains:
