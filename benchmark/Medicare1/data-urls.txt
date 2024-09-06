@@ -1,2 +1,2 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/Medicare1/Medicare1_1.csv.bz2
-http://www.cwi.nl/~boncz/PublicBIbenchmark/Medicare1/Medicare1_2.csv.bz2
+https://homepages.cwi.nl/~boncz/PublicBIbenchmark/Medicare1/Medicare1_1.csv.bz2
+https://homepages.cwi.nl/~boncz/PublicBIbenchmark/Medicare1/Medicare1_2.csv.bz2
