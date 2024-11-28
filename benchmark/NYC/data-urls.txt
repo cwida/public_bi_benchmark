@@ -1,2 +1,2 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/NYC/NYC_1.csv.bz2
-http://www.cwi.nl/~boncz/PublicBIbenchmark/NYC/NYC_2.csv.bz2
+https://homepages.cwi.nl/~boncz/PublicBIbenchmark/NYC/NYC_1.csv.bz2
+https://homepages.cwi.nl/~boncz/PublicBIbenchmark/NYC/NYC_2.csv.bz2
