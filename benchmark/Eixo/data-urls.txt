@@ -1,1 +1,1 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/Eixo/Eixo_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/Eixo/Eixo_1.csv.bz2

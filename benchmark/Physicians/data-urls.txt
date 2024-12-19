@@ -1,1 +1,1 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/Physicians/Physicians_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/Physicians/Physicians_1.csv.bz2

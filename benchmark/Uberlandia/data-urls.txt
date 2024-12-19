@@ -1,1 +1,1 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/Uberlandia/Uberlandia_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/Uberlandia/Uberlandia_1.csv.bz2

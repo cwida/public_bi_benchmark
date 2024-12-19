@@ -1,1 +1,1 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/Bimbo/Bimbo_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/Bimbo/Bimbo_1.csv.bz2

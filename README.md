@@ -4,7 +4,7 @@ User generated benchmark derived from the DBTest'18 paper [1] by Tableau. It con
 
 We downloaded 46 of the biggest workbooks and converted the data to *.csv* files and collected the SQL queries that appear in the Tableau log when the workbooks are visualized. We processed the *.csv* files and queries with the purpose of making them load and run on different database systems.
 
-This repository contains samples and schema of each .csv file, the queries and a set of scripts for working with the benchmark. The full *.csv* files are available in compressed *bzip2* format at: https://www.cwi.nl/~boncz/PublicBIbenchmark/
+This repository contains samples and schema of each .csv file, the queries and a set of scripts for working with the benchmark. The full *.csv* files are available in compressed *bzip2* format at: https://event.cwi.nl/da/PublicBIbenchmark/
 
 Each directory is associated with a workbook and contains:
 ```

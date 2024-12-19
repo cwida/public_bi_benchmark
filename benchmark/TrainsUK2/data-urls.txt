@@ -1,2 +1,2 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/TrainsUK2/TrainsUK2_1.csv.bz2
-http://www.cwi.nl/~boncz/PublicBIbenchmark/TrainsUK2/TrainsUK2_2.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/TrainsUK2/TrainsUK2_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/TrainsUK2/TrainsUK2_2.csv.bz2

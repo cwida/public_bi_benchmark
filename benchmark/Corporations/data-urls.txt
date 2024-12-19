@@ -1,1 +1,1 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/Corporations/Corporations_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/Corporations/Corporations_1.csv.bz2

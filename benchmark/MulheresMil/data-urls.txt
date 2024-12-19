@@ -1,1 +1,1 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/MulheresMil/MulheresMil_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/MulheresMil/MulheresMil_1.csv.bz2

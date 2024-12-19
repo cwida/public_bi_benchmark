@@ -1,1 +1,1 @@
-http://www.cwi.nl/~boncz/PublicBIbenchmark/HashTags/HashTags_1.csv.bz2
+http://event.cwi.nl/da/PublicBIbenchmark/HashTags/HashTags_1.csv.bz2
